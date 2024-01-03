@@ -60,14 +60,15 @@ jobs:
                        +magisk                   \
                        +nohardening              \
                        +ttl                      \
+                       +kvm                      \
                        +wireguard                \
                        +cifs                     \
                        +sdfat                    \
                        +ntfs                     \
                        +force_dex_wqhd           \
                        +morosound                \
-                       +boeffla_wl_blocker       \
-                       +kvm                      
+                       +boeffla_wl_blocker       
+                                          
                        
           2>&1 | tee config.info
 
