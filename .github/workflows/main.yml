@@ -13,7 +13,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        model: [ "G973F" ]
+        model: [ "G970F,G973F,G975F" ]
 
     steps:
       - uses: actions/checkout@v3
@@ -61,6 +61,7 @@ jobs:
                        +nohardening              \
                        +ttl                      \
                        +kvm                      \
+                       +kali                     \
                        +wireguard                \
                        +cifs                     \
                        +sdfat                    \
