@@ -55,13 +55,14 @@ jobs:
           set -e -o pipefail
           ./cruelbuild config                    \
                        model=${{ matrix.model }} \
-                       name="Cruel-devel"        \
+                       name="Cruel-Kali-devel"        \
                        toolchain=$TOOLCHAIN      \
                        +magisk                   \
                        +nohardening              \
                        +ttl                      \
                        +kvm                      \
                        +kali                     \
+                       +fake_config              \
                        +wireguard                \
                        +cifs                     \
                        +sdfat                    \
