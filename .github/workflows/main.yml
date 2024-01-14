@@ -58,9 +58,7 @@ jobs:
                        name="Cruel-devel"        \
                        toolchain=$TOOLCHAIN      \
                        +magisk                   \
-                       -nohardening              \
-                       +nohardening2             \
-                       +fake_config              \
+                       +nohardening              \
                        +ttl                      \
                        +kvm                      \
                        +wireguard                \
