@@ -61,6 +61,9 @@ jobs:
                        +nohardening              \
                        +ttl                      \
                        +kvm                      \
+                       +kali                     \
+                       +performance              \
+                       +fake_config              \
                        +wireguard                \
                        +cifs                     \
                        +sdfat                    \
