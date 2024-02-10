@@ -131,13 +131,13 @@ jobs:
         if: env.INSTALLER != 'yes'
         uses: actions/upload-artifact@v2
         with:
-          name: CruelKernel-Kali-${{ matrix.model }}
+          name: CruelKernel-Kali-${{ matrix.model }}-$(date +'%Y-%m-%d')
           path: '*.img'
           if-no-files-found: error
 
       - name: Upload Kernel Info
         uses: actions/upload-artifact@v2
         with:
-          name: ConfigurationInfo-Kali-${{ matrix.model }}
+          name: ConfigurationInfo-Kali-${{ matrix.model }}-$(date +'%Y-%m-%d')
           path: config.*
           if-no-files-found: error
