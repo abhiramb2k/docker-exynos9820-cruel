@@ -62,6 +62,7 @@ jobs:
                        +ttl                      \
                        +kvm                      \
                        +kali                     \
+                       +userns                   \
                        +performance              \
                        +fake_config              \
                        +wireguard                \
