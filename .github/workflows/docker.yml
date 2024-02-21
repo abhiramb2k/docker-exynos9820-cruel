@@ -63,7 +63,7 @@ jobs:
                        +kvm                      \
                        +performance              \
                        +wireguard                \
-                       +docker                   \
+                       +lxc                      \
                        +cifs                     \
                        +sdfat                    \
                        +ntfs                     \
