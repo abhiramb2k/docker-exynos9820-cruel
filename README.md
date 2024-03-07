@@ -99,7 +99,7 @@ It's possible to customize the kernel and build it in a web browser.
 First of all, you need to create an account on GitHub. Next, **fork**
 this repository. **Switch** to the "Actions" tab and activate GitHub Actions.
 At this step you've got your copy of the sources and you can build it with
-GitHub Actions. You need to open github actions [configuration file](.github/workflows/docker.yml)
+GitHub Actions. You need to open github actions [configuration file](.github/workflows/lxc-build.yml)
 and **edit** it from the browser.
 
 First of all, you need to edit model argument (by default it's G973F) to the model
